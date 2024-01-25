@@ -1,0 +1,206 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.content {
+  background-color: #fff;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+.content__left {
+  background-color: hsl(252, 100%, 56%);
+  color: #fff;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  text-align: center;
+  padding: 2em 0;
+}
+.content__left .result {
+  font-size: 1.3em;
+  color: lightgrey;
+  font-weight: bold;
+}
+.content__left__circle {
+  background-color: hsla(256, 72%, 46%, 0.5);
+  border-radius: 50%;
+  margin: 2em 5.5em;
+  padding: 15% 0;
+}
+.content__left__circle .of-100 {
+  color: lightgray;
+  font-size: 0.8em;
+}
+.content__left__circle h1 {
+  font-size: 4em;
+}
+.content__left .great {
+  margin-bottom: 0.3em;
+}
+.content__left .scored {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: lightgray;
+}
+.content__right {
+  background-color: #fff;
+  color: black;
+  padding: 2em 0;
+  margin: 0 1em;
+  font-family: "Hanken Grotesk";
+  font-weight: 600;
+}
+.content__right .summary {
+  margin-bottom: 1.3em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.content__right__reaction {
+  margin-bottom: 1em;
+  padding: 1.3em;
+  color: hsl(0, 100%, 67%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0.7em;
+  background-color: hsl(0, 100%, 97%);
+}
+.content__right__reaction b {
+  color: black;
+}
+.content__right__reaction span {
+  color: grey;
+}
+.content__right__reaction__text-and-logo {
+  display: flex;
+  gap: 0.4em;
+}
+.content__right__reaction__text-and-logo .reaction {
+  font-weight: bold;
+}
+.content__right__memory {
+  margin-bottom: 1em;
+  padding: 1.3em;
+  color: hsl(39, 100%, 56%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0.7em;
+  background-color: hsl(0, 100%, 98%);
+}
+.content__right__memory b {
+  color: black;
+}
+.content__right__memory span {
+  color: grey;
+}
+.content__right__memory__text-and-logo {
+  display: flex;
+  gap: 0.4em;
+}
+.content__right__memory__text-and-logo .memory {
+  font-weight: bold;
+}
+.content__right__verbal {
+  margin-bottom: 1em;
+  padding: 1.3em;
+  color: hsl(166, 100%, 37%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0.7em;
+  background-color: hsl(221, 100%, 96%);
+}
+.content__right__verbal b {
+  color: black;
+}
+.content__right__verbal span {
+  color: grey;
+}
+.content__right__verbal__text-and-logo {
+  display: flex;
+  gap: 0.4em;
+}
+.content__right__verbal__text-and-logo .verbal {
+  font-weight: bold;
+}
+.content__right__visual {
+  padding: 1.3em;
+  color: hsl(234, 85%, 45%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0.7em;
+  background-color: hsl(234, 85%, 95%);
+}
+.content__right__visual b {
+  color: black;
+}
+.content__right__visual span {
+  color: grey;
+}
+.content__right__visual__text-and-logo {
+  display: flex;
+  gap: 0.4em;
+}
+.content__right__visual__text-and-logo .verbal {
+  font-weight: bold;
+}
+.content__right .continue {
+  padding: 0.9em;
+  width: 95%;
+  border-radius: 1.5em;
+  border: none;
+  margin: 2em 0.5em 0 0.5em;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 1.2em;
+}
+.content__right .continue:hover {
+  background-color: hsl(256, 72%, 46%);
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  .content__left {
+    width: 33%;
+    height: 77%;
+    margin: auto 0;
+    border-radius: 0.7em;
+  }
+  .content__right {
+    width: 33%;
+    height: 77%;
+    margin: auto 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 10px 10px 10px rgba(185, 175, 192, 0.4);
+  }
+}/*# sourceMappingURL=style.css.map */
